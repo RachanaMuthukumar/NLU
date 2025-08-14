@@ -33,7 +33,7 @@ nlu_headers = {
 watson_nlu_url = "https://api.au-syd.natural-language-understanding.watson.cloud.ibm.com/instances/36d32e4a-29bf-4810-8839-6378c1bbd1b5/v1/analyze?version=2022-04-07"
 # Load markdown from GitHub
 def load_markdown_from_repo(user, repo, branch="main"):
-    api_url = f"https://api.github.com/repos/RachanaMuthukumar/AiBot/contents"
+    api_url = f"https://api.github.com/repos/"
     headers = {
     "Authorization": f"", 
     "Accept": "application/vnd.github.v3+json"
