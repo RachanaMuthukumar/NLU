@@ -65,7 +65,7 @@ async def ask_question(request: Request):
         return {"response": "Hi there! How can I assist you today?"}
 
     # Load markdown context from GitHub
-    context = "\n".join(load_markdown_from_repo("RachanaMuthukumar", "AiBot")) or "No markdown content available."
+    context = "\n".join(load_markdown_from_repo("", "")) or "No markdown content available."
 
     # Prepare combined text for NLU
     combined_text = f"""
